@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MyOKR</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>MyOKR - Simple OKR Manager</h1>
+
+  <div id="auth">
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+  </div>
+
+  <div id="app" style="display:none;">
+    <h2>Welcome, <span id="user-name"></span></h2>
+
+    <section>
+      <h3>Create OKR</h3>
+      <input type="text" id="okr-title" placeholder="OKR Title">
+      <input type="text" id="okr-desc" placeholder="OKR Description">
+      <button onclick="createOKR()">Add OKR</button>
+    </section>
+
+    <section>
+      <h3>Team OKRs</h3>
+      <ul id="okr-list"></ul>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

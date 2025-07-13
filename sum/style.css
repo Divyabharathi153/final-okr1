@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+input, button {
+  padding: 8px;
+  margin: 5px;
+}
+
+#app {
+  margin-top: 20px;
+}
+
+#okr-list li {
+  margin-bottom: 10px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
